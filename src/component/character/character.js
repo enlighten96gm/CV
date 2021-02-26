@@ -1,8 +1,8 @@
-
+import s from "./character.module.css"
 
 const Character = () => {
     return (
-        <div>Character</div>
+        <div className={s.smt}>Character</div>
     )
 }
 

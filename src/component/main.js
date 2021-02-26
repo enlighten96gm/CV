@@ -9,12 +9,12 @@ const Main = () => {
             <div className={s.container}>
                 <div data-text={"CHARACTER"} className={s.beforeText}>
                     <div className={s.text}>
-                        <NavLink className={s.link} to='/character'>character</NavLink>
+                        <NavLink className={s.link} to='/Character'>character</NavLink>
                     </div>
                 </div>
                 <div data-text="SKILLS" className={s.beforeText}>
                     <div className={s.text}>
-                        <NavLink className={s.link} to='/skills'>skills</NavLink>
+                        <NavLink className={s.link} to='/Skills'>skills</NavLink>
                     </div>
                 </div>
                 <div data-text="ANOTHER" className={s.beforeText}>
