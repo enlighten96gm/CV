@@ -7,8 +7,13 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    background: #0d0f1b;
+    background: #000000;
     overflow: hidden;
+    border-radius: 50%;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
 }
 .container {
     position: relative;
@@ -48,7 +53,7 @@ body {
     white-space: nowrap;
 }
 .container .beforeText:hover:before {
-    opacity: 0.05;
+    opacity: 0.10;
     letter-spacing: 20px;
 }
 .container:hover .beforeText .text {
