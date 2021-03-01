@@ -1,7 +1,9 @@
-
+import s from "./skills.module.css"
 const Skills = () => {
     return (
-        <div>Skills</div>
+        <div className={s.smt}>
+            <div className={s.main}>Skills</div>
+        </div>
     )
 }
 
