@@ -1,8 +1,75 @@
 .main {
-    background-color: burlywood;
-    color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 .smt {
-    background-color: burlywood;
-
+    margin: 0 auto;
+    background-color: #222035;
+    width: 100%;
+    height: 690px;
+}
+.java {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    right: 50px;
+    top: 120px;
+    width: 350px;
+    height: 350px;
+    background-color: #6287f8;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+.react {
+    position: relative;
+    /* overflow: hidden; */
+    top: 220px;
+    width: 350px;
+    height: 350px;
+    background-color: #fe75fe;
+    border: 2px solid #73fffe;
+}
+.typescript {
+    border: 2px solid #73fffe;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 50px;
+    top: 70px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #7a04eb;
+    transform: rotate(-10deg);
+}
+.sqare1 {
+    position: absolute;
+    left: 288px;
+    width: 100px;
+    height: 100px;
+    background-color: #fe75fe;
+    transform: rotate(35deg);
+    border: 2px solid #73fffe;
+}
+.sqare2 {
+    position: absolute;
+    top: 305px;
+    width: 130px;
+    height: 130px;
+    opacity: 90%;
+    border-top-left-radius: 50px;
+    background-color: #7a04eb;
+    transform: rotate(50deg);
+    border: 1px solid #ff00a0;
+}
+.circle1 {
+    position: absolute;
+    bottom: -38px;
+    right: 233px;
+    width: 130px;
+    height: 100px;
+    background-color: #222035;
+    border-radius: 40%;
+    border-top: 4px solid #73fffe;
+    transform: rotate(25deg);
 }
